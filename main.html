@@ -1,0 +1,217 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-169343252-2"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag() { dataLayer.push(arguments); }
+        gtag('js', new Date());
+
+        gtag('config', 'UA-169343252-2');
+    </script>
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
+        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="css.css">
+
+    <title>Number Base Converter</title>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-white">
+
+        <img src="i11.jpg" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+        <a class="navbar-brand" href="https://vasu021.github.io/AmlenduWeb/index.html">@Braincord</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="menu-icon.png" class="nav-tog-icon" width="50" height="50" alt="">
+        </button>
+
+
+                
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item"
+                            href="https://itseduin-my.sharepoint.com/:f:/g/personal/amlendushekharcss_cse18_its_edu_in/EnJacT0yKihJlvooH94spMUB_Yjq8ZRBjWIcf5KFu2wabA?e=I99jyY">Base
+                            Converter</a>
+                        <a class="dropdown-item"
+                            href="https://itseduin-my.sharepoint.com/:f:/g/personal/amlendushekharcss_cse18_its_edu_in/EgRxi8YhxxhJiuXvMJfageQBlFS2xIXaQgfuNlkmBte7WA?e=uki5rM">MsgC</a>
+                        <a class="dropdown-item"
+                            href="https://itseduin-my.sharepoint.com/:f:/g/personal/amlendushekharcss_cse18_its_edu_in/Et1wSqO0qN9Dk9xvrfUA2kkB0p2US6sPE8SRlAwCc-boKQ?e=e7sJ1Y">BMI</a>
+                        <a class="dropdown-item" href="https://vasu021.github.io/BaseConverter/main.html">Base Converter
+                            Web App</a>
+                        <div class="dropdown-divider"></div>
+                        <a class="dropdown-item" href="https://vasu021.github.io/AmlenduWeb/index.html">Load more...</a>
+                    </div>
+                </li>
+
+                
+            </ul>
+
+        </div>
+    </nav>
+
+
+    <div class="full">
+
+        <div class="pro-title"><a href="">Number Base Converter</a></div>
+
+        <div class="pro-title">
+            <p>Enter the NUMBER and select it's BASE</p>
+        </div>
+        <div class="input-group">
+
+            <input type="text" class="form-control" aria-label="Text input with dropdown button" id="inNum">
+            <div class="input-group-append">
+                <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false" id="inBase">BASE</button>
+                <div class="dropdown-menu" id="input1">
+                    <a class="dropdown-item" href="#" id="itwo">Binary</a>
+                    <a class="dropdown-item" href="#" id="ieight">Octal</a>
+                    <a class="dropdown-item" href="#" id="iten">Decimal</a>
+                    <a class="dropdown-item" href="#" id="isixteen">Hexadecimal</a>
+                    <div role="separator" class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#" id="ione">1</a>
+                    <a class="dropdown-item" href="#" id="ithree">3</a>
+                    <a class="dropdown-item" href="#" id="ifour">4</a>
+                    <a class="dropdown-item" href="#" id="ifive">5</a>
+                    <a class="dropdown-item" href="#" id="isix">6</a>
+                    <a class="dropdown-item" href="#" id="iseven">7</a>
+                    <a class="dropdown-item" href="#" id="inine">9</a>
+                    <a class="dropdown-item" href="#" id="ieleven">11</a>
+                    <a class="dropdown-item" href="#" id="itwelve">12</a>
+                    <a class="dropdown-item" href="#" id="ithirteen">13</a>
+                    <a class="dropdown-item" href="#" id="ifourteen">14</a>
+                    <a class="dropdown-item" href="#" id="ififteen">15</a>
+                </div>
+            </div>
+        </div>
+
+
+        <div class="pro-title select-base1">
+            <p>Select the BASE in which you want the ANSWER</p>
+        </div>
+        <div class="out1" id="out1">
+            <div class="out11 row">
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="two">Binary</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="eight">Octal</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="ten">Decimal</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="sixteen">Hexadecimal</button>
+                </div>
+
+
+            </div>
+            <div class="out11 row">
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="one">1</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="three">3</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="four">4</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="five">5</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="six">6</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="seven">7</button>
+                </div>
+
+            </div>
+            <div class="out11 row">
+
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="nine">9</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="eleven">11</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="twelve">12</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="thirteen">13</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="fourteen">14</button>
+                </div>
+                <div class="col">
+                    <button type="button" class="btn btn-dark" id="fifteen">15</button>
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="alert alert-success" role="alert">
+            <p id="myAns">Answer to be displayed here!</p>
+        </div>
+
+        <div class="pro-convert">
+            <button class="buttonAns" id="buttonAns">CALCULATE</button>
+        </div>
+
+
+
+
+
+    </div>
+
+
+    <footer class="foot" id="foot">
+        <div class="row footer-upper">
+            <div class="footer-logo">
+                <img src="i11.jpg" width="50" height="50" class="d-inline-block align-top" alt="" loading="lazy">
+                <a class="navbar-brand" href="https://vasu021.github.io/AmlenduWeb/index.html">@Braincord</a>
+            </div>
+
+        </div>
+        <div class="row">
+
+           
+        </div>
+        <div class="row">
+
+            <div class="col text-center text-light">
+                <p>Designed and Developed by <a href="https://vasu021.github.io/AmlenduWeb/index.html">Braincord
+                       </a></p>
+            </div>
+        </div>
+        <div class="row">
+
+            
+        </div>
+    </footer>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
+        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI"
+        crossorigin="anonymous"></script>
+    <script src="calc.js"></script>
+</body>
+
+</html>
